@@ -1,0 +1,141 @@
+/* =============================
+   ESTILO GLOBAL – MODO OSCURO PRO
+   ============================= */
+
+body {
+  margin: 0;
+  background: #0e0e0f;
+  font-family: "Inter", Arial, sans-serif;
+  color: #e6e6e6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+p {
+  font-weight: 300;
+  line-height: 1.6;
+  opacity: 0.85;
+}
+
+/* =============================
+   HEADER
+   ============================= */
+
+header {
+  padding: 50px 20px;
+  text-align: center;
+  background: #161617;
+  border-bottom: 1px solid #222;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.25);
+}
+
+header img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 22px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease;
+}
+
+header img:hover {
+  transform: scale(1.05);
+}
+
+header h1 {
+  font-size: 44px;
+  margin: 20px 0 10px;
+  color: #fafafa;
+}
+
+header p {
+  font-size: 18px;
+  max-width: 650px;
+  margin: auto;
+  opacity: 0.75;
+}
+
+/* =============================
+   SECCIONES
+   ============================= */
+
+section {
+  padding: 60px 25px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+  color: #00b7ff;
+}
+
+/* =============================
+   FEATURE BOX – TARJETAS PRO
+   ============================= */
+
+.feature-box {
+  background: #181819;
+  padding: 30px;
+  border-radius: 18px;
+  margin-bottom: 25px;
+  border: 1px solid #222;
+  box-shadow: 0 12px 35px rgba(0,0,0,0.25);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.feature-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 45px rgba(0,0,0,0.35);
+}
+
+.feature-box h3 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.feature-box p {
+  opacity: 0.75;
+}
+
+/* =============================
+   BOTONES
+   ============================= */
+
+.download-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.download-button:hover {
+  background-color: #45A049;
+}
+
+
+/* =============================
+   FOOTER
+   ============================= */
+
+footer {
+  background: #111;
+  padding: 40px;
+  text-align: center;
+  color: #777;
+  margin-top: 60px;
+  font-size: 14px;
+  border-top: 1px solid #1a1a1a;
+}
+
+
